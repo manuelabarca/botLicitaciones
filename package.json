@@ -1,0 +1,41 @@
+{
+  "name": "botlicitaciones",
+  "version": "1.0.0",
+  "description": "Bot sobre licitaciones de Chile",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelabarca/botLicitaciones.git"
+  },
+  "keywords": [
+    "bot",
+    "licitaciones",
+    "mercadopublico",
+    "chile",
+    "chilecompra",
+    "convenios",
+    "marco",
+    "ayuda",
+    "help",
+    "Chile",
+    "estado",
+    "compradores",
+    "proveedores",
+    "proveedor",
+    "comprador"
+  ],
+  "author": "Manuel Labarca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuelabarca/botLicitaciones/issues"
+  },
+  "homepage": "https://github.com/manuelabarca/botLicitaciones#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  }
+}
