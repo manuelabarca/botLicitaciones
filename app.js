@@ -8,7 +8,7 @@ var app = express()
 
 app.use(bodyParser.json())
 
-app.listen(8080, function(){
+app.listen(3000, function(){
 	console.log('Server listen localhost:3000')
 })
 
