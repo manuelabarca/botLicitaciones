@@ -8,6 +8,11 @@ var app = express()
 
 app.use(bodyParser.json())
 
-app.listen(3000, function(){
+app.listen(8080, function(){
 	console.log('Server listen localhost:3000')
+})
+
+app.get('/', function(req, res){
+	res.send('Abriendo el puerto desde local')
+
 })
